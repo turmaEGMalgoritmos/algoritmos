@@ -1,0 +1,69 @@
+--Exercícios: Vetores e Matrizes
+
+Vetores:
+
+1. Faça um programa que possua um vetor denominado A que armazene 6 números
+inteiros. O programa deve executar os seguintes passos:
+(a) Atribua os seguintes valores a esse vetor: 1, 0, 5, -2, -5, 7.
+(b) Armazene em uma variável inteira (simples) a soma entre os valores das
+posições A[0], A[1] e A[5] do vetor e mostre na tela esta soma.
+(c) Modifique o vetor na posição 4, atribuindo a esta posição o valor 100.
+d) Mostre na tela cada valor do vetor A, um em cada linha.
+2. Crie um programa que leia 6 valores inteiros e, em seguida, mostre na tela os
+valores lidos.
+
+3. Ler um conjunto de números reais, armazenando-o em vetor e calcular o
+quadrado das componentes deste vetor, armazenando o resultado em outro vetor.
+Os conjuntos têm 10 elementos cada. Imprimir todos os conjuntos.
+
+4. Faça um programa que leia um vetor de 8 posições e, em seguida, leia também
+dois valores X e Y quaisquer correspondentes a duas posições no vetor. Ao final,
+seu programa dev
+erá escrever a soma dos valores encontrados nas respectivas
+posições X e Y .
+
+5. Leia um vetor de 10 posições. Contar e escrever quantos valores pares ele
+possui.
+6. Faça um programa que receba do usuário um vetor com 10 posições. Em
+seguida, deverá ser impresso o maior e o menor elemento do vetor.
+
+7. Escreva um programa que leia 10 números inteiros e os armazene em um vetor.
+Imprima o vetor, o maior elemento e a posição em que ele se encontra.
+8. Crie um programa que lê 6 valores inteiros e, em seguida, mostre na tela os
+valores lidos na ordem inversa.
+
+9. Faça um programa para ler a nota da prova de 15 alunos e armazene num vetor,
+calcule e imprima a média geral.
+
+--Matrizes:
+1. Leia uma matriz 10 x 3 com as notas de 10 alunos em 3 provas. Em seguida,
+escreva o número de alunos cuja pior nota foi na prova 1, o número de alunos cuja
+pior nota foi na prova 2, e o número de alunos cuja pior nota foi na prova 3. Em caso
+de empate  ́ das piores notas de um aluno, o critério de desempate é arbitrário, mas
+o aluno deve ser  ́ contabilizado apenas uma vez.
+
+2. Faça um programa que permita ao usuário entrar com uma matriz de 3 x 3
+números inteiros. Em seguida, gere um array unidimensional pela soma dos
+números de cada coluna da matriz e mostrar na tela esse array. Por exemplo, a
+matriz:
+5 -8 10
+1 2 15
+25 10 7
+Vai gerar um vetor, onde cada posição é a soma das colunas da matriz. A primeira
+posição será a 5 + 1 + 25, e assim por diante...
+31 4 32
+
+3. Faça um programa que leia uma matriz de 5 linhas e 4 colunas contendo as
+seguintes informações sobre alunos de uma disciplina, sendo todas as informações
+do tipo inteiro:
+• Primeira coluna: número de matrícula (use um inteiro);
+• Segunda coluna: média das provas;
+• Terceira coluna: média dos trabalhos;
+• Quarta coluna: nota final.
+Elabore um programa que:
+(a) Leia as três primeiras informações de cada aluno.
+(b) Calcule a nota final como sendo a soma da média das provas e da média dos
+trabalhos.
+(c) Imprima a matrícula do aluno que obteve a maior nota final (assuma que só
+existe uma maior nota).
+(d) Imprima a média aritmética das notas finais.
