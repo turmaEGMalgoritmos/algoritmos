@@ -17,4 +17,5 @@ return 0;
 }
 
 
-OBS: abs() da biblioteca padrão do C é uma função que trabalha apenas com argumentos inteiros. Foi necessário adaptar a questão, para que os resultados ficassem todos positivos.Além disso, não se esqueça de chamar a biblioteca <math.h>.
+OBS: abs() da biblioteca padrão do C é uma função que trabalha apenas com argumentos inteiros. 
+Foi necessário adaptar a questão, para que os resultados ficassem todos positivos.Além disso, não se esqueça de chamar a biblioteca <math.h>.
