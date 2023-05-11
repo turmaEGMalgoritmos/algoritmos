@@ -1,0 +1,17 @@
+LISTA DE EXERCÍCIOS:
+
+1-Desenvolva um algoritmo que leia 3 notas, calcule e mostre a média aritmética entre elas.
+
+2-Escreva um programa que leia o peso e a altura de uma pessoa e mostre o IMC e a faixa em que o indivíduo se encaixa de acordo com tabela do imc 
+
+3-Desenvolva um algoritmo que leia dois números e informe se eles são iguais ou não.
+
+4-Desenvolva um algoritmo que leia dois números a e b, e deixe-os em ordem crescente, ou seja, o menor deverá ficar armazenado na variável a e o maior na variável b.
+
+5-Escreva um algoritmo que leia um número e no final informe se o número é par ou ímpar.
+
+6-Desenvolva um algoritmo que receba o salário-base de um funcionário e calcule quanto ele deve receber. Sabe-se que o funcionário tem uma gratificação de 5% sobre o salário-base e paga imposto de 7% sobre o salário-base.
+
+7-Desenvolva um algoritmo estruturado, que leia cem valores fornecidos pelo usuário. A cada número digitado, o sistema deverá mostrar estes valores e os seus valores dobrados (os dobros, x2).
+
+Saiba mais: https://github.com/arthurmeireles/algoritmos-C#readme
