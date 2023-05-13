@@ -1,0 +1,56 @@
+#include <math.h>
+#include <stdio.h>
+
+int main(void) {
+  int i, j, m[5][4], soma, maior, mediaF, maiormedia;
+  float mediaA;
+
+  for (i = 0; i < 5; i++) {
+    printf("\n--- Aluno %d ---\n", i + 1);
+
+    printf("\n");
+
+    printf("Digite a matrícula do aluno: ");
+    scanf("%d", &m[i][0]);
+
+    printf("Digite a média das provas: ");
+    scanf("%d", &m[i][1]);
+
+    printf("Digite a média dos trabalhos: ");
+    scanf("%d", &m[i][2]);
+
+    printf("\n");
+
+    mediaF = m[i][1] + m[i][2];
+    m[i][3] = mediaF;
+    
+    printf("\n");
+
+    printf("A média final é: %d", m[i][3]);
+
+    printf("\n");
+  }
+
+  maior = m[0][3];
+  maiormedia = m[0][0];
+  
+  for (i = 1; i < 5; i++) {
+    if (m[i][3] > maior) {
+      maior = m[i][3];
+      maiormedia = m[i][0];
+    }
+  }
+
+  soma = 0;
+  
+  for (i = 0; i < 5; i++) {
+    soma += m[i][3];
+  }
+
+  mediaA = soma/5;
+
+  printf("\nO aluno de matrícula %d obteve a maior nota final.\n", maiormedia);
+  printf("\nA média aritimética das notas final é %.1f.", mediaA);
+  
+  return 0;
+}
