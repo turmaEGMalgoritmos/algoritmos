@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main(void) {
+  int v[10], i, maior, pos;
+
+  printf("Digite os valores do vetor:\n");
+
+  for (i = 0; i < 10; i++) {
+    scanf("%d", &v[i]);
+  }
+
+  maior = v[0];
+  
+  for (i = 1; i < 10; i++) {
+    if (v[i] > maior){
+      maior = v[i];
+      pos = i;
+    }
+  }
+  printf("\nO maior elemeto do vetor é %d e esta na posição %d.", maior, pos + 1);
+  return 0;
+}
