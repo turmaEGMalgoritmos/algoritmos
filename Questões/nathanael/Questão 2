@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main(void) {
+  int v[6], i;
+
+  printf("\nDigite 6 valores: \n");
+
+  for(i=0; i<6; i++){
+    scanf("%d", &v[i]);
+  }
+  for(i=0; i<6; i++){
+    printf("Vetor [%d] = %d\n", i, v[i]);
+  }
+
+  
+  return 0;
+}
