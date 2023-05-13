@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main(void) {
+  int v[6], i;
+  
+  printf("\nDigite os valores desejados: \n");
+
+  for (i=0; i<6; i++){
+    scanf("%d", &v[i]);
+  }
+
+  printf("Os valores inversos são: \n");
+  for (i=5; i>=0; i--){
+    printf("%d\n", v[i]);
+  }
+  
+  return 0;
+}
