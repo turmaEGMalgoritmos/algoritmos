@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main(void) {
+  int v[8], i, x, y, j;
+  
+  printf("\n---Digite os valores do Velor---\n");
+
+  for (i=0; i<8; i++) {
+    scanf("%d", &v[i]);
+  }
+
+  printf("\nDigite quais as posições que você deseja saber: \n");
+  scanf("%d", &x);
+  scanf("%d", &y);
+
+  i = --x;
+  j = --y;
+  
+  printf("Os valores das posições, respectivamente, são = %d e %d", v[i], v[j]);
+  
+  return 0;
+}
