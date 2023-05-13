@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+  int m[3][3], v[3], i, j, soma;
+
+  printf("Digite os elementos da matriz: \n");
+  printf("\n");
+
+  for (i = 0; i < 3; i++) {
+    for (j = 0; j < 3; j++) {
+      printf("Elemento [%d][%d] = ", i, j);
+      scanf("%d", &m[i][j]);
+    }
+  }
+
+  for (i = 0; i < 3; i++) {
+    soma = 0;
+    for (j = 0; j < 3; j++){
+      soma += m[i][j];
+    }
+    v[i] = soma;
+  }
+
+  for (i = 0; i < 3; i++) {
+    printf("Soma = %d\n", v[i]);
+  }
+  return 0;
+}
