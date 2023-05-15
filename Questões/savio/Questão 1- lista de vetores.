@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main() {
+  printf("inicializando...");
+
+   int v[6] = {1, 0, 5, -2, -5, 7.};
+
+   int soma = v[0] +v [1] + v[5];
+  printf("\n%d é o valor da soma dos espaços" , soma);
+  
+    v[3] = 100;
+
+  printf("\nValores do vetor A\n");
+  
+  for (int i=0; i<6; i++) {
+    printf("valor do vetor A[%d] = %d\n", i, v[i]);
+  }  
+    printf("-->fim");
+   
+  return 0;
+}
+
+
