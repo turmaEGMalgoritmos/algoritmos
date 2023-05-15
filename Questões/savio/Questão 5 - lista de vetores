@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main() {
+  printf("inicializando...");
+    int v[10];
+    int f = 0;
+  
+    for (int i = 0; i < 10; i++) {
+        printf("Digite um valor: ");
+        scanf("%d", &v[i]);
+    }
+    
+    printf("Os valores pares do vetor são: ");
+    for (int i = 0; i < 10; i++) {
+        if (v[i] % 2 == 0) {
+            f++;
+            printf("%d ", v[i]);
+        }
+    }
+    printf("\n\npossui %d espaçoes pares.", f);
+    printf("\nfim..."); 
+    return 0;
+}
