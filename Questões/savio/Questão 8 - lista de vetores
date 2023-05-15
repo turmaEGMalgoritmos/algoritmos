@@ -4,7 +4,6 @@
 
 int main() {
   int valores[T]; 
-   //mensagem de boas vindas
    printf("inicializando...");
   printf("\nesse programa ira escrever 6 valores na ordem contraria");
   //estrutura logica
