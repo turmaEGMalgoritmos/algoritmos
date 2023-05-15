@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+  // inicio est 
+  printf("seja bem vindo");
+   printf("\ninicializando..."); 
+    printf("esse programa ira calcular o quadrado do vetor:");
+
+    float val[10],qua[10];
+
+     for(int i=0;i<10;i++){
+    printf("\n\nInforme um valor %d:",i+1);
+    scanf("%f",&val[i]);
+    qua[i]=val[i]*val[i];
+    
+    //resultado
+    printf("%.1f e o seu quadrado é: %.1f\n",val[i],qua[i]);
+}
+
+  return 0;
+}
