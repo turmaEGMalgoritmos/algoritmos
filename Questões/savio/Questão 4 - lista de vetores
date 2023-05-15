@@ -3,7 +3,7 @@
 
 int main() {
   int v[8];
-  printf("\nDigite os numeros do Vetor:");
+  printf("\nDigite numeros:");
   for (int i=0; i<8; i++) {
     scanf("%d", &v[i]);
   }
@@ -11,10 +11,10 @@ int main() {
   printf("\nDigite quais as posições que você deseja saber:");
   scanf("%d", &x);
   scanf("%d", &y);  
-  i = --x;
-  j = --y;
+  i = x;
+  j = y;
   
-  printf("Os valores das posições, respectivamente, são = %d e %d", v[i], v[j]);
+  printf("Os valores das posições são = %d e %d", v[i], v[j]);
   
   return 0;
 }
