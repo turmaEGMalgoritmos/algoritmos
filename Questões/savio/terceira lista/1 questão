@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+    char palavra[20];
+    int tam = 0, i;
+
+    printf("\nDigite uma palavra: ");
+    fgets(palavra, 20, stdin);
+    palavra[strcspn(palavra, "\n")] = '\0'; 
+
+    for (i = 0; palavra[i] != '\0'; i++)
+    {
+        tam++;
+    }
+
+    printf("\n%d\n", tam);
+
+    return 0;
+}
