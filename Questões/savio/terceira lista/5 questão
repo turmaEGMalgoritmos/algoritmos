@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <stdlib.h> 
+#include <math.h> 
+
+int main() {
+    int a, d;
+    int an[10];
+
+    printf("Digite o número inicial da P.G: ");
+    scanf("%d", &a);
+
+    printf("Digite a razão da P.A: ");
+    scanf("%d", &d);
+
+  
+    for (int i = 0; i < 10; i++) {
+         an[i] = a * pow(d, i);// função da biblioteca math.h 
+    }
+
+    printf("Os termos da P.A são: ");
+    for (int i = 0; i < 10; i++) {
+        printf("%d ", an[i]);
+    }
+    printf("\n");
+
+    return 0;
+}
