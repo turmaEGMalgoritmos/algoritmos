@@ -1,0 +1,54 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+//função para calcular o fatorial.
+int calcularfatorial(int n) {
+
+    //inicializa o fatorial  
+     int fat = 1;  
+  
+    for (; n > 1; n--) {
+        fat *= n;
+    }
+    return abs(fat);
+}
+
+int main() {
+  
+    int num;
+    printf("digite um numero para o fatorial :");
+    scanf("%d", &num);
+
+    int fatorial = calcularfatorial(num);
+
+    printf("\n resultado é %d", fatorial);
+    return 0;
+  
+} 
+
+/////////////////////////////////////////////// outra maneira de fazer: ///////////////////////////////////////////////// 
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int fatorial(int n)
+{
+   if (n > 0)
+    return abs(n * fatorial(n - 1));
+   else
+      return 1;
+}
+
+int main(){
+  
+   int num1;
+
+   printf("Digite um valor para calcular o fatorial: ");
+   scanf("%d", &num1);
+
+   printf("O fatorial é: %d\n", fatorial(num1));
+
+   return 0;
+}
