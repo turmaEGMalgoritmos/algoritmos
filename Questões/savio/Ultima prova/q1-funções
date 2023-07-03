@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int menor(int a, int b) {
+  if (a < b) {
+    return a;
+  } else {
+    return b;
+  }
+}
+int main() {
+  int n1, n2;
+
+  printf("digite o primeiro número: ");
+  scanf("%d", &n1);
+
+  printf("digite o segundo número: ");
+  scanf("%d", &n2);
+  int resultado = menor(n1, n2);
+
+  printf("O menor valor é %d", resultado);
+
+  return 0;
+}
